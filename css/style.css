@@ -595,6 +595,7 @@ ul {
     align-items: center;
     gap: 10px;
     font-weight: 600;
+    color: white;
 }
 
 .value-item i {
