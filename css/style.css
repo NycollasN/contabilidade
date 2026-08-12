@@ -726,6 +726,7 @@ ul {
 
 .health-audiences {
     margin: 25px 0;
+    
 }
 
 .health-audiences h4 {
@@ -739,7 +740,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-}
+
+  
 
 .audiences-tags span {
     background: rgba(255,255,255,0.08);
@@ -762,6 +764,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 8px;
+    color: wheat;
 }
 
 .hs-item i {
@@ -785,6 +788,7 @@ ul {
 
 .health-card-inner h3 {
     margin-bottom: 12px;
+    color: white;
 }
 
 .health-card-inner p {
