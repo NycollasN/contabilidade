@@ -142,3 +142,51 @@ const hamburger = document.getElementById('hamburger');
 
     observer.observe(heroSection);
 });
+
+
+
+// aniomação
+
+document.addEventListener("DOMContentLoaded", function () {
+    const observerOptions = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.15 // Dispara quando 15% do elemento estiver visível
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+                observer.unobserve(entry.target); // Para de observar após animar
+            }
+        });
+    }, observerOptions);
+
+    // Seleciona todos os elementos com a classe .reveal
+    const elementsToAnimate = document.querySelectorAll(".reveal");
+    elementsToAnimate.forEach(el => observer.observe(el));
+});
+
+
+// colaboradores 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    const elementsToAnimate = document.querySelectorAll(".reveal");
+    elementsToAnimate.forEach(el => observer.observe(el));
+  });

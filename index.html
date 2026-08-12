@@ -15,24 +15,25 @@
 <body>
 
     <!-- Header / Navbar -->
-    <header class="navbar" id="navbar">
+    <header class="navbar" id="navbar"  class="section reveal">
         <div class="container nav-container">
             <a href="#home" class="brand-logo">
-                <span class="logo-symbol">∞</span>
+                <span class="logo-symbol"><img src="lolooooo.png" alt=""></span>
                 <div class="logo-text">
                     <span class="brand-title">INFINITY</span>
                     <span class="brand-subtitle">CONTABILIDADE & CONSULTORIA</span>
                 </div>
             </a>
 
-            <nav class="nav-links" id="navLinks">
-                <a href="#home" class="nav-link active">Início</a>
-                <a href="#quem-somos" class="nav-link">A Infinity</a>
-                <a href="#solucoes" class="nav-link">Soluções</a>
-                <a href="#saude" class="nav-link">Saúde</a>
-                <a href="#conteudos" class="nav-link">Conteúdos</a>
-                <a href="#contato" class="nav-link">Contato</a>
-            </nav>
+           <nav class="nav-links" id="navLinks">
+    <a href="#home" class="nav-link active">Início</a>
+    <a href="#quem-somos" class="nav-link">A Infinity</a>
+    <a href="#solucoes" class="nav-link">Soluções</a>
+    <a href="#equipe" class="nav-link">Colaboradores</a>
+    <a href="#saude" class="nav-link">Saúde</a>
+    <a href="#conteudos" class="nav-link">Conteúdos</a>
+    <a href="#contato" class="nav-link">Contato</a>
+</nav>
 
             <div class="nav-actions">
                 <a href="https://wa.me/5583991657499" target="_blank" class="btn btn-gold btn-sm btn-nav">
@@ -46,7 +47,7 @@
     </header>
 
     <!-- 1. Hero / Home -->
-    <section id="home" class="hero-section">
+    <section id="home" class="hero-section" class="section reveal">
     <!-- VÍDEO DE FUNDO -->
     <video autoplay loop muted playsinline id="hero-video" class="hero-video-bg">
         <source src="infi.mp4" type="video/mp4">
@@ -94,27 +95,11 @@
         </div>
 
         <!-- Trio de Pilares -->
-        <div class="pillars-banner">
-            <div class="pillar-item">
-                <span class="pillar-num">01</span>
-                <span class="pillar-name">CONTABILIDADE</span>
-            </div>
-            <div class="pillar-arrow"><i class="fas fa-chevron-right"></i></div>
-            <div class="pillar-item">
-                <span class="pillar-num">02</span>
-                <span class="pillar-name">GESTÃO</span>
-            </div>
-            <div class="pillar-arrow"><i class="fas fa-chevron-right"></i></div>
-            <div class="pillar-item">
-                <span class="pillar-num">03</span>
-                <span class="pillar-name">CRESCIMENTO</span>
-            </div>
-        </div>
-    </div>
+        
 </section>
 
     <!-- 2. Quem Somos -->
-    <section id="quem-somos" class="section section-dark">
+    <section id="quem-somos" class="section section-dark"    class="section reveal">
         <div class="container">
             <div class="section-header text-center">
                 <span class="subhead-gold">QUEM SOMOS</span>
@@ -162,7 +147,7 @@
         </div>
     </section>
  <!-- 3. Nossos Serviços -->
-    <section id="solucoes" class="section section-light">
+    <section id="solucoes" class="section section-light"  class="section reveal">
         <div class="container">
             <div class="section-header text-center">
                 <span class="subhead-gold">SOLUÇÕES INTEGRADAS</span>
@@ -245,8 +230,51 @@
         </div>
     </section>
 
+
+    <section class="section team-section reveal" id="equipe">
+    <div class="container">
+        <div class="text-center">
+            <span class="subhead-gold">Nossa Equipe</span>
+            <h2 class="section-title">Nossos Principais Colaboradores</h2>
+            <div class="title-divider"></div>
+            <p class="section-desc mt-4">Conheça os especialistas dedicados a impulsionar a gestão financeira e tributária do seu negócio.</p>
+        </div>
+
+        <div class="team-grid">
+            <!-- Colaborador 1 -->
+            <div class="team-card reveal">
+                <div class="member-img-wrapper">
+                    <img src="IMG_6238.PNG" alt="Foto de Kley Gomes" class="member-img">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Kley Gomes</h3>
+                    <span class="member-role">Sócio / Consultor Tributário</span>
+                    <div class="member-socials">
+                        <a href="https://wa.me/5583991657499" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/infinitycontabilidade24" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colaborador 2 -->
+            <div class="team-card reveal">
+                <div class="member-img-wrapper">
+                    <img src="pic.jpeg" alt="Foto de Dieglis" class="member-img">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Dieglis e Kley</h3>
+                    <span class="member-role">Gestor Contábil</span>
+                    <div class="member-socials">
+                        <a href="https://wa.me/5583991657499" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/infinitycontabilidade24" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- 3.6 Especialização Saúde -->
-    <section id="saude" class="section section-health">
+    <section id="saude" class="section section-health" class="section reveal">
         <div class="container">
             <div class="health-wrapper">
                 <div class="health-content">
@@ -299,7 +327,7 @@
         </div>
     </section>
  <!-- 4. Por que escolher a Infinity? -->
-    <section class="section section-dark">
+    <section class="section section-dark" class="section reveal">
         <div class="container">
             <div class="section-header text-center">
                 <span class="subhead-gold">DIFERENCIAIS COMPETITIVOS</span>
@@ -344,7 +372,7 @@
     </section>
 
     <!-- 5. Como funciona -->
-    <section class="section section-light">
+    <section class="section section-light" class="section reveal">
         <div class="container">
             <div class="section-header text-center">
                 <span class="subhead-gold">METODOLOGIA</span>
@@ -379,7 +407,7 @@
     </section>
 
     <!-- 7. Depoimentos -->
-    <section class="section section-dark">
+    <section class="section section-dark" class="section reveal">
         <div class="container">
             <div class="section-header text-center">
                 <span class="subhead-gold">DEPOIMENTOS</span>
@@ -411,7 +439,7 @@
     </section>
 
     <!-- 8. Blog / Conteúdos -->
-    <section id="conteudos" class="section section-light">
+    <section id="conteudos" class="section section-light" class="section reveal">
         <div class="container">
             <div class="section-header text-center">
                 <span class="subhead-gold">CONHECIMENTO TRANSFORMANTE</span>
@@ -463,7 +491,7 @@
         </div>
     </section>
      <!-- 6. Chamada para ação CTA Banner -->
-    <section class="cta-banner">
+    <section class="cta-banner" class="section reveal">
         <div class="container text-center">
             <h2 class="cta-title">Está na hora de transformar sua contabilidade em estratégia?</h2>
             <p class="cta-subtitle">Conte para a Infinity o que sua empresa precisa e vamos desenhar a melhor solução juntos.</p>
@@ -474,7 +502,7 @@
     </section>
 
     <!-- 9. Página de Contato -->
-    <section id="contato" class="section section-dark">
+    <section id="contato" class="section section-dark" class="section reveal">
         <div class="container">
             <div class="section-header text-center">
                 <span class="subhead-gold">FALE COM A INFINITY</span>
@@ -577,10 +605,10 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" class="section reveal">
         <div class="container footer-content">
             <div class="footer-left">
-                <span class="logo-symbol">∞</span> <strong>INFINITY</strong> Contabilidade & Consultoria
+                <span class="logo-symbol"><img src="lolooooo.png" alt=""></span> <strong>INFINITY</strong> Contabilidade & Consultoria
                 <p>Contabilidade que entende. Estratégia que transforma.</p>
             </div>
             <div class="footer-right">
